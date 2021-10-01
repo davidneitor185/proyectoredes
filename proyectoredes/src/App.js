@@ -6,23 +6,25 @@ function App() {
   return (
 
     <div className="principal-container">
+      <button type="button" class="btn btn-dark button">Buscar Peers</button>
       <div className="flex-container">
+      
         <form className="form">
+          
           <table class="table table-dark table-striped">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Peer</th>
+                <th scope="col">Host</th>
+                <th scope="col">DocumentoPDF</th>
+                
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+                <td>1</td>
+                <td>192.123.123.123</td>
+                <td>networking_for_dummies</td>
               </tr>
             </tbody>
 
